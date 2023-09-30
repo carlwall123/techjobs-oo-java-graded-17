@@ -1,27 +1,29 @@
 package org.launchcode.techjobs.oo;
-
-import mockit.Expectations;
-import mockit.Mocked;
-import mockit.Tested;
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+//
+//import mockit.Expectations;
+//import mockit.Mocked;
+//import mockit.Tested;
+//
+//import org.junit.Assert;
+//import org.junit.Test;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * Created by LaunchCode
  */
 public class TestTaskFour extends AbstractTest {
 
-    @Tested
-    JobTest jobTest;
-    @Mocked
-    Job job;
-    @Mocked
-    Assert mockedAssert;
+//    @Tested
+//    JobTest jobTest;
+//    @Mocked
+//    Job job;
+//    @Mocked
+//    Assert mockedAssert;
 
     @Test
     public void testTestSettingJobIdExists() throws ClassNotFoundException {
